@@ -1,5 +1,4 @@
 # IRGNN_TNNLS_2021
-# IRGPR
 
 This repo is a pytorch implementation of the paper "Item Relationship Graph Neural Networks for E-commerce", built upon [PyG](https://pytorch-geometric.readthedocs.io/en/latest/) library.
 

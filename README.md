@@ -19,11 +19,10 @@ This repo is a pytorch implementation of the paper "Item Relationship Graph Neur
   reviews_Video_Games.json.gz
   ```
   * Obtain node features from reviews by ```gensim.models.doc2vec```, and put the ```.d2v``` file at ```raw/```.
-* We provided a sample processed heterogenous graph ```Amazon_Video_Games.pt``` from Amazon Video Games raw data, so that you can directly load the processed data and train the model.
 
 ### Experiment
 * Before running, please modify the corresponding Amazon data category in ```amazon_data_loader.py```.
 ```
-python run_irgnn.py --lr [lr] --node_emb [node embedding dim]
+python run_irgnn.py
 ```
 

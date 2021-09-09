@@ -4,7 +4,8 @@ from torch.nn import Sequential, Linear, ReLU, GRU
 from nn_conv_edge import NNConv
 from auto_encoder import AutoEncoder
 from datasets.process import AmazonDataset
-from sampler_sampling import NeighborSampler
+from torch_geometric.loader import NeighborSampler
+# from sampler_sampling import NeighborSampler
 
 
 # model parameters
